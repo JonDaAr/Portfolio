@@ -16,7 +16,7 @@ body{
 }
 body.dark .header{
     background: #131213;
-    box-shadow: 0 10px 100px rgba(255, 254, 254, 0.1);
+    box-shadow: 0 10px 100px rgba(255, 255, 255, 0.397);
 }
 body.dark .logo_header{
     color: #fff;
@@ -326,10 +326,10 @@ body.dark .title__main{
 
 /* about contenido */
 .about__content{
-    margin: 0 3rem;
+    margin: 0 6.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10rem;
+    grid-gap: 5rem;
 }
 
 body.dark .about__content-main-title{
@@ -391,7 +391,6 @@ body.dark .projects .title__main{
 .project-row{
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    grid-gap: 5rem;
     margin-bottom: 11rem;
 }
  /* imagen */
@@ -407,7 +406,7 @@ body.dark .projects .title__main{
 }
 /* contenido */
 .projects-row-cont{
-    padding: 2rem 0;
+    padding: 0 2rem 0 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
